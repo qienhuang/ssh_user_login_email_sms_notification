@@ -1,5 +1,3 @@
-##Email/SMS notification when ssh user login
-
 **Send you an email or SMS when someone login to your Raspberry Pi/Linux system**
 
 Gmail will reject connection if you didn't "Allow less secure apps."  https://myaccount.google.com/lesssecureapps
