@@ -1,4 +1,4 @@
-# ssh-user-login-email-sms-notification
+# email/sms notification for ssh user login
 Send you an email or SMS when someone login to your Raspberry Pi/Linux system
   #Gmail will reject connection if you didn't "Allow less secure apps."  https://myaccount.google.com/lesssecureapps
   go run main.go
@@ -8,6 +8,5 @@ Send you an email or SMS when someone login to your Raspberry Pi/Linux system
   nano /etc/profile.d/log.sh
   # Add the following line in log.sh
   #!/bin/bash
+  
   /bin/sshlog
-
-  # Kevin Huang at qien.huang.ny@gmail.com, 2/1/2018
