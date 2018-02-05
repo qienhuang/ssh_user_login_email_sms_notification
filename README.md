@@ -10,7 +10,7 @@ cp main /bin/sshlog
 nano /etc/profile.d/log.sh
 ```
 
-#Add the following line in log.sh
+#Add the following lines in log.sh
 ```
 #!/bin/bash
 /bin/sshlog
