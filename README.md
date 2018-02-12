@@ -16,4 +16,5 @@ nano /etc/profile.d/log.sh
 /bin/sshlog
 ```
 
-![example](https://raw.githubusercontent.com/qienhuang/ssh-user-login-email-sms-notification/master/email_example.jpg)
+![example](https://github.com/qienhuang/ssh_user_login_email_sms_notification/raw/master/email_example.jpg)
+)
