@@ -87,8 +87,8 @@ func main() {
 	out, err = exec.Command("curl", "ident.me").Output()
 
 	if err == nil {
-		log.Println("Current Wap IP:" + string(out))
-		mail.Body += "Current Wap IP:" + string(out)
+		log.Println("Current WAN IP:" + string(out))
+		mail.Body += "Current WAN IP:" + string(out)
 	} else {
 		log.Println(err)
 	}
